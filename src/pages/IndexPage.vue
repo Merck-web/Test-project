@@ -12,6 +12,8 @@
     <Sales />
 
     <Banners />
+
+    <Articles />
   </div>
 </template>
 
@@ -38,8 +40,9 @@ import HeadSlider from "components/HeadSlider";
 import Categories from "components/Categories";
 import Sales from "components/Sales";
 import Banners from "components/Banners";
+import Articles from "components/Articles";
 
 export default {
-  components: {Banners, Sales, Categories, HeadSlider, Catalog, Header}
+  components: {Articles, Banners, Sales, Categories, HeadSlider, Catalog, Header}
 }
 </script>
