@@ -73,11 +73,13 @@ const search = ref('')
 
 <style lang="scss">
 .catalog {
-  .wrapper {
+  margin-bottom: 20px;
+  .main_container {
     width: 100%;
     background: #F8F8F8;
     display: flex;
     align-items: center;
+    padding: 0;
   }
 
   .content{

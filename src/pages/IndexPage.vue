@@ -1,10 +1,11 @@
 <template>
   <div>
 
-    <Header />
+    <Header/>
 
-    <Catalog />
+    <Catalog/>
 
+    <HeadSlider/>
 
   </div>
 </template>
@@ -28,7 +29,9 @@ p {
 <script>
 import Header from "components/Header";
 import Catalog from "components/Catalog";
+import HeadSlider from "components/HeadSlider";
+
 export default {
-  components: {Catalog, Header}
+  components: {HeadSlider, Catalog, Header}
 }
 </script>
