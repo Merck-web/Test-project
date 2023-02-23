@@ -36,8 +36,14 @@
             :space-between="20"
             :speed="2000"
             :breakpoints="{
-              '1023': {
+              '1350': {
                 slidesPerView: 4
+              },
+              '1050': {
+                slidesPerView: 3
+              },
+              '750': {
+                slidesPerView: 2
               },
               '0': {
                 slidesPerView: 1
@@ -201,6 +207,7 @@ const disablePrev = computed(() => {
 
     .tab_btn {
       padding: 13px 30px;
+      margin-bottom: 10px;
       font-weight: 400;
       font-size: 14px;
       color: #303030;
@@ -254,7 +261,7 @@ const disablePrev = computed(() => {
   }
 
   .box_cards{
-    margin-top: 35px;
+    margin-top: 25px;
   }
 }
 </style>

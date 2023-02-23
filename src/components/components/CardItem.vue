@@ -139,6 +139,11 @@ const calcSales = computed(() => {
   padding: 16px 20px;
   border: 1px solid #F0F0F0;
   position: relative;
+  margin: 0 auto;
+
+  @media (max-width: 330px) {
+    transform: scale(.8);
+  }
 
   .icons_settings {
     position: absolute;
