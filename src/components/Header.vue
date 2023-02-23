@@ -36,7 +36,7 @@
           </template>
         </SelectDefault>
 
-        <div class="phone flex items-center cursor-pointer">
+        <div class="phone flex items-center cursor-pointer default_hover">
           <svg style="margin-right: 10px;" width="16" height="16" viewBox="0 0 16 16" fill="none"
                xmlns="http://www.w3.org/2000/svg">
             <path
@@ -64,8 +64,8 @@
 
       <div class="right_part">
         <div class="sign_or_log">
-          <div class="sign cursor-pointer">Вход</div>
-          <div class="log cursor-pointer">Регистрация</div>
+          <div class="sign cursor-pointer default_hover">Вход</div>
+          <div class="log cursor-pointer default_hover">Регистрация</div>
         </div>
 
         <div class="flex items-center justify-between right_part-menu">
@@ -112,6 +112,7 @@
 
     <Transition>
       <div v-if="openNav" class="mobile_nav">
+
         <div class="left_prat_mobile">
 
           <SelectDefault
@@ -157,6 +158,7 @@
           </div>
 
         </div>
+
         <div class="right_part_mobile">
           <div class="sign_or_log">
             <div class="sign cursor-pointer">Вход</div>
@@ -195,6 +197,9 @@
 
 
         </div>
+
+
+
       </div>
     </Transition>
 
@@ -213,7 +218,7 @@ const $store = useStore();
 const city = ref('Санкт-Петербург');
 const cityOptions = ref(['Санкт-Петербург', 'Москва', 'Нижний новгород', 'Ростов-на-Дону']);
 const openPopup = ref(false);
-const openNav = ref(true);
+const openNav = ref(false);
 
 function updateValue(newValue) {
   city.value = newValue

@@ -5,7 +5,7 @@
       dense
       v-model="value"
       :options="props.modelOptions"
-      class="select_city q-mr-xs"
+      class="select_city q-mr-xs default_hover"
       options-selected-class="active-city_option"
       hide-dropdown-icon
       menu-anchor="bottom left"

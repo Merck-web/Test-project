@@ -1,6 +1,11 @@
 <template>
   <div>
+
     <Header />
+
+    <Catalog />
+
+
   </div>
 </template>
 
@@ -22,7 +27,8 @@ p {
 
 <script>
 import Header from "components/Header";
+import Catalog from "components/Catalog";
 export default {
-  components: {Header}
+  components: {Catalog, Header}
 }
 </script>
