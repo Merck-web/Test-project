@@ -108,6 +108,10 @@ const slide = ref(1)
     padding: 0;
   }
 
+  .q-carousel__slide{
+    padding: 0;
+  }
+
   .carousel {
     height: 560px;
   }
@@ -122,6 +126,7 @@ const slide = ref(1)
     margin: 0 4px 24px;
     position: relative;
     z-index: 3;
+    cursor: pointer;
 
     &.active {
       background: #303030;
@@ -159,9 +164,10 @@ const slide = ref(1)
       height: 642.52px;
       top: 24px;
       left: -112px;
-      background-size: cover;
+      background-size: contain;
       background-position: center;
       background-repeat: no-repeat;
+      opacity: 0.8;
     }
     .content{
       width: 100%;

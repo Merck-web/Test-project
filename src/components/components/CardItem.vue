@@ -191,6 +191,7 @@ const calcSales = computed(() => {
     padding: 0;
     margin: 0 4px;
     position: relative;
+    cursor: pointer;
     z-index: 3;
 
     &.active {
