@@ -9,6 +9,7 @@
 
     <Categories />
 
+    <Sales />
   </div>
 </template>
 
@@ -33,8 +34,9 @@ import Header from "components/Header";
 import Catalog from "components/Catalog";
 import HeadSlider from "components/HeadSlider";
 import Categories from "components/Categories";
+import Sales from "components/Sales";
 
 export default {
-  components: {Categories, HeadSlider, Catalog, Header}
+  components: {Sales, Categories, HeadSlider, Catalog, Header}
 }
 </script>
