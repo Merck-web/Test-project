@@ -7,6 +7,8 @@
 
     <HeadSlider/>
 
+    <Categories />
+
   </div>
 </template>
 
@@ -30,8 +32,9 @@ p {
 import Header from "components/Header";
 import Catalog from "components/Catalog";
 import HeadSlider from "components/HeadSlider";
+import Categories from "components/Categories";
 
 export default {
-  components: {HeadSlider, Catalog, Header}
+  components: {Categories, HeadSlider, Catalog, Header}
 }
 </script>

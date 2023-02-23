@@ -102,6 +102,7 @@ const slide = ref(1)
 
 <style lang="scss">
 .head_slider {
+  margin-bottom: 120px;
   .main_container {
     background: #F8F8F8;
     padding: 0;
@@ -127,9 +128,6 @@ const slide = ref(1)
     }
   }
 
-  .q-carousel__control {
-
-  }
   .btn_prev,
   .btn_next{
     cursor: pointer;
