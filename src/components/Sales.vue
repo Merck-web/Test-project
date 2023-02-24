@@ -157,12 +157,10 @@ function toggleBtn(target) {
 }
 
 function next() {
-  console.log(swiperRef.value.isBeginning)
   swiperRef.value.slideNext();
 }
 
 function prev() {
-  console.log(swiperRef.value.isBeginning)
   swiperRef.value.slidePrev();
 }
 

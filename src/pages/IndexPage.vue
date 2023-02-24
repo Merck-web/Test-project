@@ -13,6 +13,8 @@
 
     <Banners />
 
+    <ItemsDay />
+
     <Articles />
   </div>
 </template>
@@ -41,8 +43,9 @@ import Categories from "components/Categories";
 import Sales from "components/Sales";
 import Banners from "components/Banners";
 import Articles from "components/Articles";
+import ItemsDay from "components/ItemsDay";
 
 export default {
-  components: {Articles, Banners, Sales, Categories, HeadSlider, Catalog, Header}
+  components: {ItemsDay, Articles, Banners, Sales, Categories, HeadSlider, Catalog, Header}
 }
 </script>
